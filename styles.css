@@ -1,4 +1,110 @@
-.embed{
+/*Header Start*/
+
+.header-duuuurian{
+  z-index: 1;
+  display: block;
   width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  opacity: 0.75;
+  transition: opacity 0.3s ease;
+}
+
+.header-duuuurian:hover{
+  opacity: 1;
+}
+
+
+.header-menu-duuuurian{
+  height: 80px;
+  position: relative;
+}
+.header-duuuurian .flex-row-duuuurian{
   height: 100%;
 }
+
+.flex-row-duuuurian{
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.container-duuuurian{
+  max-width: 1140px;
+  width:100%;
+  padding: 0 15px;
+
+}
+
+.flex-col-duuuurian{
+  max-height: 100%;
+}
+.flex-right-duuuurian{
+  margin-right:auto;
+}
+.nav-right-duuuurian{
+  justify-content: flex-start;
+}
+.nav-duuuurian{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.nav-spacing-duuuurian>li{
+  margin: 0 15px;
+}
+.header-menu-duuuurian .nav-duuuurian>li{
+  display: inline-block;
+  list-style: none;
+}
+.header-menu-duuuurian .nav-duuuurian >li>a{
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 16px;
+  font-family: "Lexend", sans-serif;
+  font-weight:bold;
+  color: white;
+}
+
+ .flex-col-duuuurian li a{
+  display: block;
+  text-decoration: none;
+  line-height: 74px;
+
+  color:white;
+  font-weight:bold;
+  font-family: "Lexend", sans-serif;
+}
+
+.flex-col-duuuurian ul li:hover > ul{
+  display:block;
+  list-style:none;
+}
+
+.flex-col-duuuurian ul ul li:hover{
+  opacity:50%;
+}
+
+.flex-col-duuuurian ul ul li {
+  height:50px;
+  width: 130px;
+  display: list-item;
+  position: relative;
+  padding: 20px;
+}
+
+.flex-col-duuuurian ul ul {
+  display: none;
+  position: absolute;
+  z-index: 11111;
+  background-color:black;
+}
+/*Header End*/
